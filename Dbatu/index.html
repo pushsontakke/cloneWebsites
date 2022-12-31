@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dbatu</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <Div class="Container card">
+    <nav>
+      <img src="Dbatu.png" alt="Dbatu">
+      <header> Dr. Babasaheb Ambedkar Technological University </header>
+    </nav>
+  </Div>
+
+  <form id="form">
+    <div class="form">
+      <p id="si">Sign in</p>
+      <div class="main-form">
+        <div id="error"></div>
+         <div class="un">
+           <label id="username" for="username">Username *</label>
+           <input class="center" id="usernm" type="text" placeholder="Username" required>
+        </div>
+        
+        <div class="psw">
+          <label for="password">Password *</label>
+          <input class="center" id="password" type="text" placeholder="Password" required>
+        </div>
+        
+        <button type="submit" onclick="print()" class="center" id="btn">Login</button>
+      
+        <p onclick="print2()" class="forpass center"> <a>Forgot Password</a></p>
+        
+      </div>
+    </div>
+  </form>
+  <div id="hello"></div>
+
+
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

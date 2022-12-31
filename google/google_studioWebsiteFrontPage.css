@@ -1,0 +1,56 @@
+
+.navbar{
+    background-color : rgb(255, 255, 255);
+    font-family: Android Euclid,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    overflow: auto;
+    margin: -10px;
+    padding: 0px;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.navbar li{  
+    float: left;
+    list-style: none;
+    margin: 5px 15px;
+}
+.options li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a img{
+    width: 132px;
+    height: 32px; 
+    margin-left: -30px;
+    margin-top: -10px;
+}
+#search{
+    width: 200px;
+    height: 32px;
+    border-radius: 3px;
+    border: 0px;
+    background-color: rgb(243, 240, 240);
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 80px;
+}
+select{
+    margin-left: 280px;
+    margin-top: -5px;
+    display: block;
+}
+#signin{
+    display: block;
+    margin-top: -5px;
+    color: blue;
+}
+#language:hover{
+    background-color: rgb(243, 240, 240);
+}
+#language{
+    height: 32px;
+    margin-top: -11px;
+    border: none;
+}
